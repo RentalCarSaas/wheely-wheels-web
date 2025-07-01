@@ -184,7 +184,7 @@ export const ContactSection: React.FC = () => {
                     <div className="text-sm text-charcoal-500">Support Available</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-accent">< 2min</div>
+                    <div className="text-2xl font-bold text-accent">&lt; 2min</div>
                     <div className="text-sm text-charcoal-500">Response Time</div>
                   </div>
                 </div>
