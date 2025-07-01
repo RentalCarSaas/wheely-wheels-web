@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { WheelLogo } from '@/components/ui/WheelLogo';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/Container';
 
 export const Header: React.FC = () => {

@@ -1,6 +1,5 @@
-
 import React, { useEffect, useState } from 'react';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/Container';
 import { WheelLogo } from '@/components/ui/WheelLogo';
 
@@ -57,10 +56,9 @@ export const HeroSection: React.FC = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
-              variant="accent" 
               size="lg" 
               onClick={scrollToContact}
-              className="min-w-[200px]"
+              className="min-w-[200px] bg-accent text-white hover:bg-accent/90"
             >
               Get Started Free
             </Button>

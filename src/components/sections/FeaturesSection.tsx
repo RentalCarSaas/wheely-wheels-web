@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Container } from '@/components/ui/Container';
-import { Card, CardContent } from '@/components/ui/Card';
+import { Card, CardContent } from '@/components/ui/card';
 
 export const FeaturesSection: React.FC = () => {
   const features = [
@@ -57,11 +56,10 @@ export const FeaturesSection: React.FC = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              hover 
-              className={`animate-on-scroll h-full`}
+              className={`animate-on-scroll h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2`}
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <CardContent className="text-center h-full flex flex-col">
+              <CardContent className="text-center h-full flex flex-col p-6">
                 <div className="mb-6 flex justify-center">
                   <div className="p-4 bg-primary-50 rounded-full">
                     {feature.icon}

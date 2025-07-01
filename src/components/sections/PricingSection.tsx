@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Container } from '@/components/ui/Container';
-import { Card, CardContent, CardHeader } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 export const PricingSection: React.FC = () => {
   const plans = [
@@ -94,8 +93,7 @@ export const PricingSection: React.FC = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <Card 
-                flip 
-                className={`relative h-full ${plan.popular ? 'ring-2 ring-accent shadow-2xl' : ''}`}
+                className={`relative h-full group perspective-1000 ${plan.popular ? 'ring-2 ring-accent shadow-2xl' : ''}`}
               >
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
@@ -129,7 +127,7 @@ export const PricingSection: React.FC = () => {
                     </ul>
 
                     <Button 
-                      variant={plan.popular ? 'accent' : 'outline'} 
+                      variant={plan.popular ? 'default' : 'outline'} 
                       className="w-full"
                       onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
                     >

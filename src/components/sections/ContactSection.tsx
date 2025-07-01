@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Container } from '@/components/ui/Container';
-import { Card, CardContent, CardHeader } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 export const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -113,7 +113,7 @@ export const ContactSection: React.FC = () => {
                   />
                 </div>
 
-                <Button type="submit" variant="accent" className="w-full" size="lg">
+                <Button type="submit" className="w-full bg-accent text-white hover:bg-accent/90">
                   Request Demo
                 </Button>
               </form>
@@ -124,7 +124,7 @@ export const ContactSection: React.FC = () => {
           <div className="animate-on-scroll" style={{ animationDelay: '0.3s' }}>
             <div className="space-y-8">
               <Card>
-                <CardContent>
+                <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
@@ -142,7 +142,7 @@ export const ContactSection: React.FC = () => {
               </Card>
 
               <Card>
-                <CardContent>
+                <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-accent-50 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
@@ -159,7 +159,7 @@ export const ContactSection: React.FC = () => {
               </Card>
 
               <Card>
-                <CardContent>
+                <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
@@ -184,7 +184,7 @@ export const ContactSection: React.FC = () => {
                     <div className="text-sm text-charcoal-500">Support Available</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-accent">&lt; 2min</div>
+                    <div className="text-2xl font-bold text-accent">&amp;lt; 2min</div>
                     <div className="text-sm text-charcoal-500">Response Time</div>
                   </div>
                 </div>
