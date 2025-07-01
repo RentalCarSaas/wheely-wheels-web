@@ -1,73 +1,148 @@
-# Welcome to your Lovable project
 
-## Project info
+# Wheely - Enterprise Fleet Management Platform
 
-**URL**: https://lovable.dev/projects/8ad1c4a9-22cf-4be2-9ec0-f7f868c3ead8
+A modern, responsive marketing website for Wheely, a comprehensive SaaS platform that streamlines car rentals for enterprises of all sizes.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Responsive Design**: Mobile-first approach with seamless adaptation across all devices
+- **Modern UI/UX**: Clean, flat aesthetic with vibrant teal (#00BFA6) and orange (#FF6B35) color scheme
+- **Interactive Animations**: Smooth scroll animations, hover effects, and animated elements
+- **TypeScript**: Fully typed React components with prop validation
+- **Component Library**: Reusable UI components (buttons, cards, forms, navigation)
+- **Performance Optimized**: Fast loading with optimized assets and animations
 
-**Use Lovable**
+## 🛠 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ad1c4a9-22cf-4be2-9ec0-f7f868c3ead8) and start prompting.
+- **React 18** with TypeScript
+- **Tailwind CSS** for styling
+- **Vite** for fast development and building
+- **Lucide React** for icons
+- **Custom animations** with CSS and Tailwind
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📋 Sections
 
-**Use your preferred IDE**
+1. **Hero Section**: Full-screen header with animated background and CTAs
+2. **Features**: Three-column grid showcasing Fleet Management, Role-Based Access, and Analytics
+3. **How It Works**: Step-by-step timeline with animated elements
+4. **Pricing**: Interactive pricing cards with flip animations on hover
+5. **About Us**: Team information with photo mosaic and company stats
+6. **Contact**: Demo request form with live chat widget
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v16 or higher)
+- npm or yarn
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd wheely-website
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:8080`
+
+### Building for Production
+
+```bash
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+The built files will be in the `dist` directory, ready for deployment.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎨 Design System
 
-**Use GitHub Codespaces**
+### Colors
+- **Primary**: #00BFA6 (Teal)
+- **Accent**: #FF6B35 (Orange)
+- **Text**: #2D3748 (Charcoal)
+- **Background**: #FFFFFF (White)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Typography
+- **Headings**: Inter (Semi-bold)
+- **Body**: Inter (Regular)
 
-## What technologies are used for this project?
+### Components
 
-This project is built with:
+#### Buttons
+```tsx
+<Button variant="primary|secondary|accent|outline" size="sm|md|lg">
+  Click me
+</Button>
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+#### Cards
+```tsx
+<Card hover flip>
+  <CardHeader>Title</CardHeader>
+  <CardContent>Content</CardContent>
+</Card>
+```
 
-## How can I deploy this project?
+#### Container
+```tsx
+<Container size="sm|md|lg|xl">
+  Content
+</Container>
+```
 
-Simply open [Lovable](https://lovable.dev/projects/8ad1c4a9-22cf-4be2-9ec0-f7f868c3ead8) and click on Share -> Publish.
+## 🔧 Component Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+src/
+├── components/
+│   ├── ui/              # Reusable UI components
+│   ├── layout/          # Layout components (Header, Footer)
+│   └── sections/        # Page sections
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+└── pages/               # Page components
+```
 
-Yes, you can!
+## 📱 Responsive Breakpoints
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🎭 Animations
+
+- Scroll-triggered animations using Intersection Observer
+- CSS-based hover effects and transitions
+- Custom keyframe animations for the wheel logo
+- Smooth scrolling navigation
+
+## 🚀 Deployment
+
+The application is ready for deployment to any static hosting service:
+
+- **Vercel**: Connect your repository for automatic deployments
+- **Netlify**: Drag and drop the `dist` folder
+- **AWS S3**: Upload the build files to an S3 bucket
+- **GitHub Pages**: Use the built-in Pages feature
+
+## 📄 License
+
+This project is proprietary software developed for Wheely. All rights reserved.
+
+## 👥 Team
+
+Built with ❤️ by the Wheely development team.
+
+---
+
+For questions or support, contact us at hello@wheely.com
