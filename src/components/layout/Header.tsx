@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { WheelLogo } from '@/components/ui/WheelLogo';
 import { Button } from '@/components/ui/button';
@@ -48,7 +49,7 @@ export const Header: React.FC = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button 
-              variant="accent" 
+              className="bg-accent text-white hover:bg-accent/90"
               onClick={() => scrollToSection('#contact')}
             >
               Get Started
@@ -82,8 +83,7 @@ export const Header: React.FC = () => {
                 </button>
               ))}
               <Button 
-                variant="accent" 
-                className="mt-4 w-full"
+                className="mt-4 w-full bg-accent text-white hover:bg-accent/90"
                 onClick={() => scrollToSection('#contact')}
               >
                 Get Started
