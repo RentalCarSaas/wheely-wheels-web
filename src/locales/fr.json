@@ -1,0 +1,92 @@
+
+{
+  "common": {
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "contactSales": "Contacter les ventes",
+    "startFreeTrial": "Essai gratuit",
+    "currency": "MAD",
+    "perMonth": "/mois"
+  },
+  "header": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "pricing": "Tarification",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Simplifier la location de voitures pour les entreprises de toutes tailles",
+    "subtitle": "Renforcez votre entreprise avec notre plateforme complète de gestion de flotte. Simplifiez les opérations, réduisez les coûts et évoluez en toute confiance.",
+    "getStartedFree": "Commencer gratuitement",
+    "trustIndicator": "Approuvé par les entreprises leaders mondiales",
+    "enterprisesOnboarded": "Entreprises intégrées",
+    "carsManaged": "Voitures gérées"
+  },
+  "pricing": {
+    "title": "Tarification simple et transparente",
+    "subtitle": "Choisissez le plan parfait pour les besoins de votre entreprise. Tous les plans incluent nos fonctionnalités principales avec des options évolutives.",
+    "mostPopular": "Le plus populaire",
+    "moneyBackGuarantee": "Garantie de remboursement de 30 jours",
+    "tryRiskFree": "Essayez sans risque avec option de remboursement complet",
+    "plans": {
+      "basic": {
+        "name": "Basique",
+        "price": "990",
+        "description": "Parfait pour les petites entreprises commençant leur parcours de flotte",
+        "features": [
+          "Jusqu'à 25 véhicules",
+          "Tableau de bord analytique de base",
+          "Support par email",
+          "Accès à l'application mobile",
+          "Rapports standards"
+        ],
+        "backFeatures": [
+          "Suivi des véhicules",
+          "Alertes de maintenance",
+          "Gestion des conducteurs",
+          "Intégrations de base",
+          "Surveillance 24/7"
+        ]
+      },
+      "professional": {
+        "name": "Professionnel",
+        "price": "2990",
+        "description": "Idéal pour les entreprises en croissance avec des flottes en expansion",
+        "features": [
+          "Jusqu'à 100 véhicules",
+          "Analyses avancées",
+          "Support prioritaire",
+          "Accès API",
+          "Rapports personnalisés"
+        ],
+        "backFeatures": [
+          "Suivi en temps réel",
+          "Maintenance prédictive",
+          "Accès basé sur les rôles",
+          "Intégrations avancées",
+          "Tableaux de bord personnalisés"
+        ]
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "price": "Personnalisé",
+        "description": "Solution complète pour les opérations à grande échelle",
+        "features": [
+          "Véhicules illimités",
+          "Solution en marque blanche",
+          "Support dédié",
+          "Développement personnalisé",
+          "Garantie SLA"
+        ],
+        "backFeatures": [
+          "Support multi-sites",
+          "Sécurité avancée",
+          "Flux de travail personnalisés",
+          "Intégrations d'entreprise",
+          "Gestionnaire de compte dédié"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+
+{
+  "common": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "contactSales": "Contact Sales",
+    "startFreeTrial": "Start Free Trial",
+    "currency": "MAD",
+    "perMonth": "/month"
+  },
+  "header": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Streamlining Car Rentals for Enterprises of All Sizes",
+    "subtitle": "Empower your business with our comprehensive fleet management platform. Simplify operations, reduce costs, and scale with confidence.",
+    "getStartedFree": "Get Started Free",
+    "trustIndicator": "Trusted by leading enterprises worldwide",
+    "enterprisesOnboarded": "Enterprises Onboarded",
+    "carsManaged": "Cars Managed"
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your business needs. All plans include our core features with scalable options.",
+    "mostPopular": "Most Popular",
+    "moneyBackGuarantee": "30-Day Money Back Guarantee",
+    "tryRiskFree": "Try risk-free with full refund option",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "990",
+        "description": "Perfect for small businesses starting their fleet journey",
+        "features": [
+          "Up to 25 vehicles",
+          "Basic analytics dashboard",
+          "Email support",
+          "Mobile app access",
+          "Standard reporting"
+        ],
+        "backFeatures": [
+          "Vehicle tracking",
+          "Maintenance alerts",
+          "Driver management",
+          "Basic integrations",
+          "24/7 monitoring"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "2990",
+        "description": "Ideal for growing enterprises with expanding fleets",
+        "features": [
+          "Up to 100 vehicles",
+          "Advanced analytics",
+          "Priority support",
+          "API access",
+          "Custom reports"
+        ],
+        "backFeatures": [
+          "Real-time tracking",
+          "Predictive maintenance",
+          "Role-based access",
+          "Advanced integrations",
+          "Custom dashboards"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "Comprehensive solution for large-scale operations",
+        "features": [
+          "Unlimited vehicles",
+          "White-label solution",
+          "Dedicated support",
+          "Custom development",
+          "SLA guarantee"
+        ],
+        "backFeatures": [
+          "Multi-location support",
+          "Advanced security",
+          "Custom workflows",
+          "Enterprise integrations",
+          "Dedicated account manager"
+        ]
+      }
+    }
+  }
+}

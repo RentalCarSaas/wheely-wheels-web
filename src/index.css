@@ -37,6 +37,23 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading font-semibold;
   }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    text-align: right;
+  }
+
+  [dir="rtl"] .text-left {
+    text-align: right;
+  }
+
+  [dir="rtl"] .text-right {
+    text-align: left;
+  }
+
+  [dir="rtl"] .text-center {
+    text-align: center;
+  }
 }
 
 @layer components {
@@ -64,5 +81,18 @@
                 radial-gradient(circle at 40% 40%, #00BFA6 0%, transparent 50%);
     background-size: 800px 800px, 600px 600px, 400px 400px;
     animation: float 20s ease-in-out infinite;
+  }
+
+  /* RTL Perspective fix for card flips */
+  [dir="rtl"] .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  [dir="rtl"] .group-hover\:rotate-y-180:hover {
+    transform: rotateY(-180deg);
+  }
+
+  [dir="rtl"] .rotate-y-180 {
+    transform: rotateY(-180deg);
   }
 }
