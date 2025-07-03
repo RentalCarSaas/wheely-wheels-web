@@ -141,11 +141,11 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2024 Wheely. All rights reserved.
+            © 2025 Wheely. All rights reserved.
           </p>
-          <p className="text-gray-300 text-sm mt-4 md:mt-0">
+          {/* <p className="text-gray-300 text-sm mt-4 md:mt-0">
             Made with ❤️ for modern enterprises
-          </p>
+          </p> */}
         </div>
       </Container>
     </footer>
